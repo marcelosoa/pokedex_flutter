@@ -9,7 +9,7 @@ import 'package:pokedex_flutter/features/home/pages/home_page.dart';
 import '../../../common/errors/errors.dart';
 
 class HomeContainer extends StatelessWidget {
-  const HomeContainer({Key? key, required this.repository, required this.onItemTap});
+  const HomeContainer({super.key, required this.repository, required this.onItemTap});
   final PokemonRepository repository;
   final Function(String, DetailArguments) onItemTap;
 
